@@ -4,6 +4,6 @@ class Patient {
 
     // write your method here
     void say() {
-        System.out.println("Hello, my name is "+ this.name + ", I need a doctor.");
+        System.out.println("Hello, my name is " + this.name + ", I need a doctor.");
     }
 }
