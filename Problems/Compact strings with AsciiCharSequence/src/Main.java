@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 class AsciiCharSequence implements CharSequence {
     private byte[] bytes;
 
@@ -19,7 +17,7 @@ class AsciiCharSequence implements CharSequence {
 
     @Override
     public AsciiCharSequence subSequence(int start, int end) {
-        return new AsciiCharSequence(java.util.Arrays.copyOfRange(bytes, start, end));
+        return new AsciiCharSequence(Arrays.copyOfRange(bytes, start, end));
     }
 
     @Override
