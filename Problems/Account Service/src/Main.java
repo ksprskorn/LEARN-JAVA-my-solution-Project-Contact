@@ -53,11 +53,6 @@ class Account {
     private long balance;
     private User owner;
 
-    public Account() {
-    }
-
-    ;
-
     public Account(long id, long balance, User owner) {
         this.id = id;
         this.balance = balance;
@@ -82,11 +77,6 @@ class User {
     private long id;
     private String firstName;
     private String lastName;
-
-    public User() {
-    }
-
-    ;
 
     public User(long id, String firstName, String lastName) {
         this.id = id;
