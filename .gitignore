@@ -35,7 +35,9 @@ hs_err_pid*
 /.gradle/
 /.idea/
 /gradle/
-/Contacts/task/
 *.bat
 *.gradle
 gradlew
+*.idx
+*.txt
+*_tmp
