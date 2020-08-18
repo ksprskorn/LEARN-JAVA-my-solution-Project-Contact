@@ -42,3 +42,4 @@ gradlew
 *.txt
 *_tmp
 /Contacts/task/test
+*.yaml~
